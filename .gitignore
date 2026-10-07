@@ -1,0 +1,37 @@
+# Build output
+*.exe
+*.out
+*.o
+*.obj
+*.dll
+*.pdb
+*.ilk
+a.out
+build/
+bin/
+obj/
+cmake-build-*/
+
+# Editors / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Secrets - never commit
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+credentials*.json
+secrets.*
+
+# Nightly automation log (kept locally only)
+gitguard-activity.log
